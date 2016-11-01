@@ -1,14 +1,14 @@
 <template>
-  <div id="page_two" class="page_two">
+  <div class="page-two">
     <h1>{{ msg }}</h1>
   </div>
 </template>
 
-<script type="text/javascript">
+<script>
 export default {
   data () {
     return {
-      msg: 'I am page two!'
+      msg: 'Page two!'
     }
   }
 }

@@ -11,8 +11,8 @@ Vue.config.debug = true
 Vue.use(VueRouter)
 Vue.use(VueResource)
 
-import PageOne from './components/page-one.vue'
-import PageTwo from './components/page-two.vue'
+import PageOne from './components/PageOne.vue'
+import PageTwo from './components/PageTwo.vue'
 
 //
 const router = new VueRouter({
